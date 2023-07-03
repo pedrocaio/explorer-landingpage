@@ -1,46 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Open+Sans:wght@400;700&display=swap');
+body {
+    font-family: Open Sans;
+    text-align: center;
+    margin: 0;
+}
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 592px;
+    margin: auto;
 }
 .img-main {
-    width: 348px;
-    height: 223px;
     margin-bottom: 72px;
 }
 h1 {
-    width: 562px;
     font-size: 49px;
-    text-align: center;
     font-weight: 400;
     line-height: 56px;
     margin-bottom: 32px;
     font-family: Inter;
 }
-.span-title{
+h1 span{
     color: #FF9900;
     font-weight: 800;
 }
-.text {
-    width: 592px;
-    text-align: center;
+p {
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 28px;
     color: #7D7987;
-    margin-bottom: 72px;
-    font-family: Open Sans;
 }
-.span-text {
+span {
     color: #FF9900;
 }
-.span-bold {
-    font-weight: 800;
-}
 .line {
+    margin-top: 72px;
     height: 0px;
     width: 568px;
     border: 1px solid #ECEFF2;
@@ -51,12 +43,9 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Open Sans;
 }
-.social {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
+footer a + a {
+    margin-left: 28px;
 }
 .social a {
     text-align: center;
@@ -67,8 +56,7 @@ footer {
     line-height: 28px;
 }
 .img {
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
